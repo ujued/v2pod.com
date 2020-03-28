@@ -10,23 +10,27 @@
     <meta name="description" content="一批完美主义者因为 Go 而相遇，他们..." />
     <style type="text/css">
     * {padding: 0;margin: 0;list-style: none;}
-    header {padding: 5px 10px 20px 10px;font-weight: bold;font-size: 22px;}
+    header {
+        padding: 5px 10px 20px 10px;
+        font-weight: bold;font-size: 22px;
+        text-align: center;    
+    }
     a {text-decoration: none;color: #666;}
 
     main{
         display: flex;
         flex-flow: row wrap;
-        justify-content:left;
+        justify-content:center;
     }
-    ul {padding: 20px 10px;width: 420px;}
-    ul li {padding:3px 0;}
+    ul {padding: 20px 10px;width: 380px;margin: 5px 20px;background: #eee;}
+    ul li {padding:2px 0;}
     ul .bl {height: 32px;}
     ul .domain {
         font-family: Consolas, 'Courier New', monospace;
         display: inline;
         font-size: 18px;
     }
-    ul li p {display: inline;}
+    ul li p {float: right;}
     ul li p span {
         display: inline-block;
         line-height: 16px;
@@ -37,7 +41,7 @@
         padding: 0px 5px;
         margin: 0 3px;
     }
-    footer {padding: 20px 10px;}
+    footer {padding: 20px 10px;text-align: center;}
     @media(prefers-color-scheme: dark) {
         body {background: #1c1c1e;color: #fff;}
     }
